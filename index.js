@@ -8,6 +8,10 @@ function createLogo(answers) {
     let shapeColor = answers.shapeColor; // Declare shapeColor variable here
     let txt = answers.txt;
     let txtColor = answers.txtColor;
+    if (txt.length > 3) {
+        console.error("Text must be 3 characters or less!");
+        return;
+     }
     switch (answers.shape){
         case "Triangle": 
             shape = new Triangle(shapeColor, txt, txtColor);
