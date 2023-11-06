@@ -1,0 +1,11 @@
+
+        <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="10" width="200" height="200" fill='green'/>
+            <text x="135" y="110" fill='blue'>tbh</text>
+
+            <circle cx='10' cy='10' r='80' fill='blue'/>
+            <text x="135" y="110" fill='white'>hi</text>
+        </svg>
+        <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            
+        </svg>

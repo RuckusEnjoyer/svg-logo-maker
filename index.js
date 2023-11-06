@@ -5,6 +5,9 @@ const {Triangle, Circle, Square} = require('./lib/shapes.js');
 let shape;
 
 function createLogo(answers) {
+    let shapeColor = answers.shapeColor; // Declare shapeColor variable here
+    let txt = answers.txt;
+    let txtColor = answers.txtColor;
     switch (answers.shape){
         case "Triangle": 
             shape = new Triangle(shapeColor, txt, txtColor);
@@ -20,6 +23,7 @@ function createLogo(answers) {
             break;
 
     }
+    return shape.render()
 }
 
 //prompt for svg questions:
