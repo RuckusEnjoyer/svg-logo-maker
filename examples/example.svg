@@ -1,5 +1,5 @@
 
         <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <polygon points="110, 10 205, 200 15, 200" fill='red'/>
-            <text x="80" y="110" font-size="2em" fill='blue'>hie</text>
+            <rect x="10" y="10" width="200" height="200" fill='Red'/>
+            <text x="80" y="110" font-size="2em" fill='Pink'>KAP</text>
         </svg>
