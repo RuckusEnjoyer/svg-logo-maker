@@ -22,6 +22,9 @@ You can use this app by cloning the repo to your folder.
     
 To use this app, navigate to the repo in your terminal. Then, install the packages in the package.json file. When that is complete, simply type node index. It will run this project after a few seconds of buffering.
 
+[Video Link]()
+[![A video of how to use the application.](./lib/images/Capture.PNG)](https://drive.google.com/file/d/1hGgQgAVF5F-z3BnFnrOWgckbfUbaEnKt/view "How to Use")
+
 ## License
 
 This project is covered under the MIT license. For more information, visit the link below.
