@@ -5,7 +5,7 @@ const {Triangle, Circle, Square} = require('./lib/shapes.js');
 let shape;
 
 function createLogo(answers) {
-    let shapeColor = answers.shapeColor; // Declare shapeColor variable here
+    let shapeColor = answers.shapeColor;
     let txt = answers.txt;
     let txtColor = answers.txtColor;
     if (txt.length > 3) {
